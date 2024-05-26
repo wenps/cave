@@ -1,0 +1,28 @@
+/*
+ * @Author: xiaoshanwen
+ * @Date: 2024-05-16 18:25:31
+ * @LastEditTime: 2024-05-16 18:25:55
+ * @FilePath: /cave/tsconfig.json
+ */
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    "moduleResolution": "node",
+    "noEmit": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+
+    "strict": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

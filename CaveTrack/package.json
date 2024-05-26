@@ -1,0 +1,10 @@
+{
+  "name": "CaveTrack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "wenps",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+  }
+}
