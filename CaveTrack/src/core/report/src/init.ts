@@ -1,7 +1,7 @@
 /*
  * @Author: xiaoshanwen
  * @Date: 2024-05-26 16:10:07
- * @LastEditTime: 2024-05-26 17:41:45
+ * @LastEditTime: 2024-05-27 14:04:37
  * @FilePath: /cave/CaveTrack/src/core/report/src/init.ts
  */
 import { globalOptions } from "../..";
@@ -27,7 +27,7 @@ export async function optionsInit(options: Options) {
       beforeReport: {
         type: ['function'],
       },
-      áfterReport: {
+      afterReport: {
         type: ['function'],
       },
       httpReportType: {

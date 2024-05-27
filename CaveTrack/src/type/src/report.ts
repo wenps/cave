@@ -1,7 +1,7 @@
 /*
  * @Author: xiaoshanwen
  * @Date: 2024-05-16 18:35:26
- * @LastEditTime: 2024-05-26 17:31:32
+ * @LastEditTime: 2024-05-27 14:01:12
  * @FilePath: /cave/CaveTrack/src/type/src/report.ts
  */
 import { HTTP_REQ_TYPE, REPORT_TYPE, BROWSER_EVENT_ENUM,  CUSTOM_ENUM, ERROR_ENUM, REQUEST_ENUM, ROUTE_ENUM, USER_ACTION_ENUM } from "../../common"
@@ -17,7 +17,7 @@ export interface ReportOptions extends HttpOptions {
   retryCount: number, // 重试次数，最多三次
   retryInterval: number, // 重试时间间隔
   beforeReport?: (data: ReportData) => void, // 上报前处理
-  áfterReport?: (data: any) => void, // 上报后处理
+  afterReport?: (data: any) => void, // 上报后处理
 }
 
 // http相关项
