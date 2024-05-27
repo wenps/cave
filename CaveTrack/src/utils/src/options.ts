@@ -1,7 +1,7 @@
 /*
  * @Author: xiaoshanwen
  * @Date: 2024-05-26 16:16:59
- * @LastEditTime: 2024-05-26 17:35:51
+ * @LastEditTime: 2024-05-27 17:48:46
  * @FilePath: /cave/CaveTrack/src/utils/src/options.ts
  */
 
@@ -24,7 +24,7 @@ export function optionsCheck(options: Options, valueTypeObj: { [key: string]: {'
         result = false
       }
     }
-  }
+            }
   })
   return result
 }
