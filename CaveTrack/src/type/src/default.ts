@@ -1,11 +1,11 @@
 /*
  * @Author: xiaoshanwen
  * @Date: 2024-05-16 18:29:09
- * @LastEditTime: 2024-05-26 17:41:51
+ * @LastEditTime: 2024-05-27 17:33:39
  * @FilePath: /cave/CaveTrack/src/type/src/default.ts
  */
 
-import { TrackType } from "./report"
+import { TrackType } from "./report";
 
 // 默认参数项
 export interface DefaultOptions {

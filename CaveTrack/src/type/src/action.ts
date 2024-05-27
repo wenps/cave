@@ -2,7 +2,7 @@
 /*
  * @Author: xiaoshanwen
  * @Date: 2024-05-26 15:49:37
- * @LastEditTime: 2024-05-27 14:04:15
+ * @LastEditTime: 2024-05-27 17:29:46
  * @FilePath: /cave/CaveTrack/src/type/src/action.ts
  */
 import { ReportType as ActionType } from "./report";

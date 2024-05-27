@@ -1,10 +1,10 @@
 /*
  * @Author: xiaoshanwen
  * @Date: 2024-05-16 18:25:31
- * @LastEditTime: 2024-05-16 18:25:55
- * @FilePath: /cave/tsconfig.json
+ * @LastEditTime: 2024-05-27 17:35:30
+ * @FilePath: /cave/caveTrack/tsconfig.json
  */
-{
+ {
   "compilerOptions": {
     "target": "ESNext",
     "lib": ["ESNext", "DOM"],
