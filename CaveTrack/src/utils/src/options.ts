@@ -1,7 +1,7 @@
 /*
  * @Author: xiaoshanwen
  * @Date: 2024-05-26 16:16:59
- * @LastEditTime: 2024-05-27 17:48:46
+ * @LastEditTime: 2024-05-29 11:11:54
  * @FilePath: /cave/CaveTrack/src/utils/src/options.ts
  */
 
@@ -14,17 +14,17 @@ export function optionsCheck(options: Options, valueTypeObj: { [key: string]: {'
   objKeys.forEach(item => {
     const val = valueTypeObj[item]
     if(val) {
-    if(val.required) {
-      if(!requiredCheck(objKeys, item)) {
-        result = false
+      if(val.required) {
+        if(!requiredCheck(objKeys, item)) {
+          result = false
+        }
+      }
+      if(val.type) {
+        if(!typeCheck(options[item], item, val.type)) {
+          result = false
+        }
       }
     }
-     if(val.type) {
-      if(!typeCheck(options[item], item, val.type)) {
-        result = false
-      }
-    }
-            }
   })
   return result
 }
@@ -49,6 +49,7 @@ export function typeCheck(target: any, targetName: string, expectTypes: string[]
 }
 
 
+// 类型生成
 export function typeGet(target: any): string {
   return Object.prototype.toString.call(target).slice(8, -1).toLowerCase();
 }
